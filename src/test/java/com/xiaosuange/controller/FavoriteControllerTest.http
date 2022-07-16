@@ -1,0 +1,15 @@
+
+###
+GET http://localhost:8080/douyin/favorite/list?token=77;,1657802402&user_id=30
+
+###
+POST http://localhost:8080/douyin/favorite/action
+Content-Type: application/x-www-form-urlencoded
+
+token=77;,1657802402&video_id=49&action_type=1
+
+###
+POST http://localhost:8080/douyin/favorite/action
+Content-Type: application/x-www-form-urlencoded
+
+token=77;,1657802402&video_id=49&action_type=2

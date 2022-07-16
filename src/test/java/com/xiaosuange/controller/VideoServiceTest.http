@@ -1,0 +1,8 @@
+###
+GET http://localhost:8080/douyin/feed?token=
+
+###
+GET http://localhost:8080/douyin/feed?lastest_time=11415419198101&token=auser;,1655052084
+
+###
+GET http://localhost:8080/douyin/publish/list?token=77;,1657802402&user_id=27

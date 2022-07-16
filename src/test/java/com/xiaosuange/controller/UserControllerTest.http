@@ -1,0 +1,14 @@
+###
+POST http://localhost:8080/douyin/user/register
+Content-Type: application/x-www-form-urlencoded
+
+username=999&password=content
+
+###
+POST http://localhost:8080/douyin/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=77&password=1234
+
+###
+GET http://localhost:8080/douyin/user?user_id=26&token=ning;,1655098088

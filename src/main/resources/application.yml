@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dou_sheng?serverTimezone=UTC
+    username: root
+    password: 1234
+  servlet:
+    multipart:
+      max-file-size: 1073741824
+      max-request-size: 1073741824
+# ??mp???????????
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+path_pf: D:/public/
+url_pf: http://localhost:8081/
